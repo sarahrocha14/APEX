@@ -1,0 +1,30 @@
+public class Gato {
+    // declara os atributos (Características)
+    // variáveis
+    // [modificados de acesso] [tipoDeDado][nomeVariavel];
+    public String nome, raca;
+    public Integer idade;
+    
+    //metodo miar()
+    public void miar (){
+        system.debug(nome+ ' disse: MIAAAUUUUU');
+    }
+    
+    // medoto dormir
+    public void dormir (){
+        system.debug(nome+ ' está dormindo');
+    }
+    
+    //metodo comer
+    public void comer(){
+        system.debug(nome + ' está comendo');
+     }
+    // criar um metodo que imprima nome, raça e idade
+  
+    public void imprimirGato(){
+        system.debug('Nome: ' +nome);
+        system.debug('Raça: '+raca);
+        system.debug('Idade: '+idade+' anos');
+    }
+  
+}
