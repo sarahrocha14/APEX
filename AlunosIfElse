@@ -1,0 +1,16 @@
+public class Alunos {
+    public string matricula,nome;
+    public decimal p1, p2, t1, mediaFinal;
+    
+    public decimal mediaFinal(){
+        mediaFinal =(p1+p2+t1)/3;
+        return mediaFinal;
+    }
+    public decimal atingiuMedia(){
+        if(mediaFinal>=7){
+            return 0;
+        }else{
+            return 7 - mediaFinal;
+        }
+    }
+ }
