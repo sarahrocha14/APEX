@@ -1,0 +1,18 @@
+public class Calculadora {
+    public static decimal somar (decimal n1, decimal n2){
+      return n1+n2;
+    }    
+    public static decimal subtrair (decimal n1, decimal n2){
+    return n1-n2;
+    }
+    public static decimal dividir (decimal n1, decimal n2 ){
+        if(n2==0 ){
+        system.debug('Não pode ser dividido por 0');
+    return null;
+        }
+    return n1/n2;
+    }
+    public static decimal multiplicar (decimal n1, decimal n2){
+    return n1*n2;
+    }
+}
