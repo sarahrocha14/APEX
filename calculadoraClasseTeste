@@ -27,3 +27,4 @@ public class CalculadoraTest {
         system.assertEquals(9,resultado,'Multiplicar não esta funcionando');
     }
 }
+
