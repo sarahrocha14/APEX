@@ -1,0 +1,29 @@
+public class Pessoa {
+    string nome;
+    date dataNascimento;
+    decimal altura;
+    
+    public void getNome(){
+        system.debug('Nome: '+nome);
+    }
+    public void getData(){
+        system.debug('Data de nascimento: '+dataNascimento);
+    }
+    public void getAltura(){
+        system.debug('Altura: '+altura);
+    }
+    public void setNome (string novoNome){
+        nome=novoNome;
+    }
+    public void setData (integer dia, integer mes, integer ano){
+        dataNascimento = Date.newInstance(ano,mes, dia);
+    }
+    public void setAltura(decimal novaAltura){
+        altura=novaAltura;
+    }
+    public void exibirNascimento(){
+        integer idade= dataNascimento.daysBetween (Date.today())/365;
+        system.debug(nome + ', '+idade+'anos');
+    }
+
+}
