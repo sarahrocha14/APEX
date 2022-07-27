@@ -1,0 +1,20 @@
+public class Conversao {
+    public static decimal celsiusFah (Decimal c){
+        decimal f=(c*1.8)+32;
+        return f.setScale(2);
+    }
+    
+    public static decimal Fahcelsius (Decimal f){
+        decimal c=(f - 32) * 5/9;
+        return c.setScale(2);
+    }
+    public static decimal kelvincelsius (decimal k){
+        decimal c=(k-273);
+        return c.setScale(2);
+    }
+    
+    public static decimal metrocm (decimal m){
+        decimal cm=(m/100);
+        return cm.setScale(2);
+    }
+}
