@@ -1,0 +1,29 @@
+@isTest
+public class CalculadoraTest {
+    @isTest
+    public static void TesteSomar(){
+        Decimal resultado = Calculadora.somar(2,2);
+        system.assertEquals(4, resultado, 'Somar não esta funcionando');
+    }
+    @isTest
+    public static void TesteSubtrair(){
+        Decimal resultado  = Calculadora.subtrair(5,3);
+        system.assertEquals(2, resultado,'Subtrair não esta funcionando');
+    }
+    @isTest
+    public static void TesteDividir(){
+        Decimal resultado = Calculadora.dividir(4,2);
+        system.assertEquals(2, resultado, 'Dividir não esta funcionando');
+        
+    }
+    @isTest
+    public static void TesteDividir2(){
+        Decimal resultado = Calculadora.dividir(4,0);
+        system.assertEquals(null, resultado, 'Dividir não esta funcionando');
+    }
+    @isTest
+    public static void TesteMultiplicar(){
+        Decimal resultado = Calculadora.multiplicar(3,3);
+        system.assertEquals(9,resultado,'Multiplicar não esta funcionando');
+    }
+}
