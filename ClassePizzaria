@@ -1,0 +1,12 @@
+public class Pizzaria {
+    public void pedir (string pizza){
+        if (pizza == 'calabresa'){
+            system.debug('Pizza de Calabresa, valor R$ 45,00');
+        }else if (pizza == 'Quatro Queijos'){
+            system.debug('Pizza 4 Queijos, valor R$ 50,00');
+        }else if (pizza == 'Maria Bonita'){
+            system.debug('Pizza Maria Bonita, R$ 60,00');
+        }else
+            system.debug('Não possuímos essa Pizza.');
+    }
+ }
