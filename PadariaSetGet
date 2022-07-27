@@ -1,0 +1,24 @@
+public class Padaria {
+    public string nomePadaria, Cidade;
+    private decimal lucroMes, codContador, lucroAnual;
+    
+    public void setLucroMes (decimal novoLucro){
+        lucroMes=novoLucro;
+    }
+    public void setCodContador (decimal novoContador){
+        codContador=novoContador;
+    }
+    public void setLucroAnual (decimal novoLucroAnual){
+        lucroAnual=novoLucroAnual;
+    }
+    public decimal getcodContador(){
+        return codcontador;
+    }
+    public decimal getlucroMes(){
+        return lucroMes;
+  }
+    public decimal getlucroAnual(){
+        return lucroAnual;
+}
+ 
+}
