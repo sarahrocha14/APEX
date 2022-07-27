@@ -1,0 +1,23 @@
+@isTest
+public class ConversaoTest {
+    @isTest
+    public static void TesteCelsius(){
+        Decimal conversao = conversao.celsiusFah(19);
+        system.assertEquals(48.2, conversao,'Celsius para Fahrenheit');
+    }
+    @isTest
+    public static void TesteFah(){
+        Decimal conversao = conversao.Fahcelsius(100);
+        system.assertEquals(37.77,conversao,'fahrenheit para celsius');
+    }
+    @isTest
+    public static void Kelvin (){
+        Decimal conversao = conversao.kelvincelsius(298);
+        system.assertEquals(24.85, conversao, 'kelvin para celcius');
+    }
+    @isTest
+    public static void Metro (){
+        Decimal conversao = conversao.metrocm(3);
+        system.assertEquals(300, conversao,'metro para centimetros');
+    }
+}
